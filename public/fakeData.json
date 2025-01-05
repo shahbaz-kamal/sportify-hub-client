@@ -1,0 +1,172 @@
+[
+    {
+      "image": "https://i.ibb.co.com/gdrmM09/Cricket-Bat.png",
+      "itemName": "Classic Cricket Bat",
+      "categoryName": "Cricket",
+      "description": "Handcrafted cricket bat made from premium English willow.",
+      "price": 129.99,
+      "rating": 4.8,
+      "customization": ["Extra Grip", "Hit Paper"],
+      "processingTime": "3-5 days",
+      "stockStatus": 30
+    },
+    {
+      "image": "https://i.ibb.co.com/N7Nhs11/cricket-gloves.webp",
+      "itemName": "Pro Cricket Gloves",
+      "categoryName": "Cricket",
+      "description": "Durable and comfortable gloves for professional players.",
+      "price": 39.99,
+      "rating": 4.6,
+      "customization": ["Extra Padding", "Color Scheme"],
+      "processingTime": "2-3 days",
+      "stockStatus": 50
+    },
+    {
+      "image": "https://i.ibb.co.com/SwZ6hwv/cricket-ball.jpg",
+      "itemName": "Premium Cricket Ball",
+      "categoryName": "Cricket",
+      "description": "High-quality leather cricket ball for optimal performance.",
+      "price": 15.99,
+      "rating": 4.5,
+      "customization": ["Logo Embossing", "Color Customization"],
+      "processingTime": "1-2 days",
+      "stockStatus": 100
+    },
+    {
+      "image": "https://i.ibb.co.com/DwBjcqN/footbal-cleats.jpg",
+      "itemName": "Speedy Football Cleats",
+      "categoryName": "Football",
+      "description": "Lightweight cleats designed for agility and speed.",
+      "price": 89.99,
+      "rating": 4.7,
+      "customization": ["Size", "Color Combination"],
+      "processingTime": "3-5 days",
+      "stockStatus": 40
+    },
+    {
+      "image": "https://i.ibb.co.com/DbwYZ9V/football.jpg",
+      "itemName": "Official Match Football",
+      "categoryName": "Football",
+      "description": "Official size and weight football for professional games.",
+      "price": 49.99,
+      "rating": 4.9,
+      "customization": ["Team Logo", "Name Printing"],
+      "processingTime": "2-4 days",
+      "stockStatus": 60
+    },
+    {
+      "image": "https://i.ibb.co.com/WW09nmp/Goalkeeper-Gloves.webp",
+      "itemName": "Goalkeeper Gloves",
+      "categoryName": "Football",
+      "description": "Professional goalkeeper gloves for superior grip.",
+      "price": 29.99,
+      "rating": 4.5,
+      "customization": ["Custom Fit", "Color Scheme"],
+      "processingTime": "3-6 days",
+      "stockStatus": 35
+    },
+    {
+      "image": "https://i.ibb.co.com/NnJftyh/Basketball-Shoes.jpg",
+      "itemName": "High Jump Basketball Shoes",
+      "categoryName": "Basketball",
+      "description": "Comfortable and durable shoes for optimal jumping and speed.",
+      "price": 109.99,
+      "rating": 4.6,
+      "customization": ["Size", "Color Combination"],
+      "processingTime": "5-7 days",
+      "stockStatus": 20
+    },
+    {
+      "image": "https://i.ibb.co.com/zNxxdT8/Basketball.jpg",
+      "itemName": "Indoor Basketball",
+      "categoryName": "Basketball",
+      "description": "Premium basketball for indoor games with excellent grip.",
+      "price": 34.99,
+      "rating": 4.8,
+      "customization": ["Logo Printing", "Custom Colors"],
+      "processingTime": "2-4 days",
+      "stockStatus": 50
+    },
+    {
+      "image": "https://i.ibb.co.com/vcH8F7Z/Adjustable-Dumbbells.jpg",
+      "itemName": "Adjustable Dumbbells",
+      "categoryName": "Fitness",
+      "description": "Set of adjustable dumbbells for various workout routines.",
+      "price": 149.99,
+      "rating": 4.7,
+      "customization": ["Grip Color", "Engraved Initials"],
+      "processingTime": "4-6 days",
+      "stockStatus": 15
+    },
+    {
+      "image": "https://i.ibb.co.com/N6QTZH5/Resistance-Bands-Set.jpg",
+      "itemName": "Resistance Bands Set",
+      "categoryName": "Fitness",
+      "description": "Set of 5 resistance bands with varying levels of resistance.",
+      "price": 24.99,
+      "rating": 4.5,
+      "customization": ["Band Color", "Storage Bag Printing"],
+      "processingTime": "3-5 days",
+      "stockStatus": 75
+    },
+    {
+      "image": "https://i.ibb.co.com/B21CFSk/Yoga-Mat.jpg",
+      "itemName": "Yoga Mat",
+      "categoryName": "Fitness",
+      "description": "Non-slip yoga mat with extra cushioning for comfort.",
+      "price": 19.99,
+      "rating": 4.6,
+      "customization": ["Custom Thickness", "Name Printing"],
+      "processingTime": "3-4 days",
+      "stockStatus": 70
+    },
+    {
+      "image": "https://i.ibb.co.com/3sbzQc2/Duffel-Bag.jpg",
+      "itemName": "Sports Duffel Bag",
+      "categoryName": "Accessories",
+      "description": "Durable and spacious bag for carrying all your sports gear.",
+      "price": 49.99,
+      "rating": 4.8,
+      "customization": ["Team Logo", "Name Tag"],
+      "processingTime": "4-6 days",
+      "stockStatus": 25
+    },
+    {
+      "image": "https://i.ibb.co.com/1qSJVSv/Insulated-Water-Bottle.jpg",
+      "itemName": "Insulated Water Bottle",
+      "categoryName": "Accessories",
+      "description": "Keeps beverages hot or cold for up to 12 hours.",
+      "price": 14.99,
+      "rating": 4.7,
+      "customization": ["Name Engraving", "Color Choice"],
+      "processingTime": "2-3 days",
+      "stockStatus": 100
+    },
+    {
+      "image": "https://i.ibb.co.com/bJmKnGw/Fitness-Tracker-Watch.jpg",
+      "itemName": "Fitness Tracker Watch",
+      "categoryName": "Accessories",
+      "description": "Smart fitness tracker with heart rate and step monitoring.",
+      "price": 89.99,
+      "rating": 4.6,
+      "customization": ["Strap Color", "Name Engraving"],
+      "processingTime": "3-5 days",
+      "stockStatus": 40
+    },
+    {
+      "image": "https://i.ibb.co.com/ysSJ111/Sports-Cap.jpg",
+      "itemName": "Sports Cap",
+      "categoryName": "Accessories",
+      "description": "Adjustable cap with moisture-wicking fabric for outdoor activities.",
+      "price": 12.99,
+      "rating": 4.4,
+      "customization": ["Embroidery", "Team Logo"],
+      "processingTime": "2-3 days",
+      "stockStatus": 80
+    }
+  ]
+  Cricket
+Football
+Basketball
+Fitness
+Accessories
