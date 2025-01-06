@@ -28,7 +28,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/all-equipment",
-        element: <AllEquipment></AllEquipment>,
+        element: (
+          <PrivateRoute>
+            <AllEquipment></AllEquipment>
+          </PrivateRoute>
+        ),
         loader: () =>
           fetch("https://sportify-hub-server-navy.vercel.app/all-products"),
       },

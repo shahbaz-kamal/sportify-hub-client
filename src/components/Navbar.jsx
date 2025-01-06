@@ -40,18 +40,24 @@ const Navbar = () => {
       >
         <li className="px-2 py-2 hover:underline">Home</li>
       </NavLink>
-      <NavLink
-        to={"/all-equipment"}
-        className={({ isActive }) =>
-          `rounded-md transition-all duration-300 ${
-            isActive
-              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-sm"
-              : "hover:underline text-sm"
-          }`
-        }
-      >
-        <li className="px-2 py-2 hover:underline">All Products</li>
-      </NavLink>
+
+      {user && user?.email ? (
+        <NavLink
+          to={"/all-equipment"}
+          className={({ isActive }) =>
+            `rounded-md transition-all duration-300 ${
+              isActive
+                ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-sm"
+                : "hover:underline text-sm"
+            }`
+          }
+        >
+          <li className="px-2 py-2 hover:underline">All Products</li>
+        </NavLink>
+      ) : (
+        ""
+      )}
+
       {user && user?.email ? (
         <NavLink
           to={"/add-equipment"}
@@ -228,7 +234,7 @@ const Navbar = () => {
               >
                 <span className="hidden md:block"> Log In</span>{" "}
                 <span className="md:hidden text-black">
-                <TbLogin />
+                  <TbLogin />
                 </span>
               </button>
             </Fade>
