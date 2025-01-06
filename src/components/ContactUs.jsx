@@ -8,129 +8,133 @@ import { FaLocationArrow } from "react-icons/fa";
 import { CiLocationOn, CiPhone, CiVoicemail } from "react-icons/ci";
 import { TfiEmail } from "react-icons/tfi";
 import { MdEmail } from "react-icons/md";
+import { Fade } from "react-awesome-reveal";
 
 const ContactUs = () => {
   const { user } = useContext(AuthContext);
 
   return (
     <div className="container mx-auto">
-      <header>
+      <header className="mb-4">
         <Title title={"Contact Us"}> </Title>
         <Descriptions description={"We want to hear from You"}></Descriptions>
       </header>
       <section className="flex flex-col md:flex-row gap-8 justify-between items-center">
-        <div className="flex-grow">
-          <form className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 md:mb-10">
-            {user && user?.email ? (
-              <div>
-                <label className="text-light-color-text dark:text-dark-color-text">
-                  <span className="font-semibold  text-base md:text-lg">
-                    Name
-                  </span>
-                </label>
-                <input
-                  className="bg-base-200 text-light-color-text  w-full px-3 py-4 rounded-md  mt-2 md:mt-4 placeholplaceholder-light-color-text-60  placeholder:text-base md:placeholder:text-lg "
-                  type="text"
-                  name="name"
-                  value={user.displayName}
-                />
-              </div>
-            ) : (
-              <div>
-                <label className="text-light-color-text dark:text-dark-color-text">
-                  <span className="font-semibold  text-base md:text-lg">
-                    Name
-                  </span>
-                </label>
-                <input
-                  className="bg-base-200 text-light-color-text  w-full px-3 py-4 rounded-md  mt-2 md:mt-4 placeholplaceholder-light-color-text-60  placeholder:text-base md:placeholder:text-lg "
-                  type="text"
-                  name="name"
-                  placeholder="Enter your Name"
-                />
-              </div>
-            )}
-            {user && user?.email ? (
+        <Fade className="flex-grow" duration={1200} direction="left">
+          {" "}
+          <div className="flex-grow">
+            <form className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 md:mb-10">
+              {user && user?.email ? (
+                <div>
+                  <label className="text-light-color-text dark:text-dark-color-text">
+                    <span className="font-semibold  text-base md:text-lg">
+                      Name
+                    </span>
+                  </label>
+                  <input
+                    className="bg-base-200 text-light-color-text  w-full px-3 py-4 rounded-md  mt-2 md:mt-4 placeholplaceholder-light-color-text-60  placeholder:text-base md:placeholder:text-lg "
+                    type="text"
+                    name="name"
+                    value={user.displayName}
+                  />
+                </div>
+              ) : (
+                <div>
+                  <label className="text-light-color-text dark:text-dark-color-text">
+                    <span className="font-semibold  text-base md:text-lg">
+                      Name
+                    </span>
+                  </label>
+                  <input
+                    className="bg-base-200 text-light-color-text  w-full px-3 py-4 rounded-md  mt-2 md:mt-4 placeholplaceholder-light-color-text-60  placeholder:text-base md:placeholder:text-lg "
+                    type="text"
+                    name="name"
+                    placeholder="Enter your Name"
+                  />
+                </div>
+              )}
+              {user && user?.email ? (
+                <div>
+                  <label className="text-light-color-text dark:text-dark-color-text">
+                    <span className="font-semibold  text-base md:text-lg ">
+                      Email
+                    </span>
+                  </label>
+                  <input
+                    className="w-full px-3 py-4 rounded-md bg-base-200 text-light-color-text  mt-2 md:mt-4 placeholder-light-color-text-60  placeholder:text-base md:placeholder:text-lg "
+                    type="email"
+                    name="email"
+                    value={user.email}
+                  />
+                </div>
+              ) : (
+                <div>
+                  <label className="text-light-color-text dark:text-dark-color-text">
+                    <span className="font-semibold  text-base md:text-lg ">
+                      Email
+                    </span>
+                  </label>
+                  <input
+                    className="w-full px-3 py-4 rounded-md bg-base-200 text-light-color-text  mt-2 md:mt-4 placeholder-light-color-text-60  placeholder:text-base md:placeholder:text-lg "
+                    type="email"
+                    name="email"
+                    placeholder="Enter Your Email"
+                  />
+                </div>
+              )}
               <div>
                 <label className="text-light-color-text dark:text-dark-color-text">
                   <span className="font-semibold  text-base md:text-lg ">
-                    Email
+                    Phone Number
                   </span>
                 </label>
                 <input
-                  className="w-full px-3 py-4 rounded-md bg-base-200 text-light-color-text  mt-2 md:mt-4 placeholder-light-color-text-60  placeholder:text-base md:placeholder:text-lg "
-                  type="email"
-                  name="email"
-                  value={user.email}
+                  className="w-full px-3 py-4 rounded-md bg-base-200 text-light-color-text  mt-2 md:mt-4 placeholder-light-color-text-60  placeholder:text-base  md:placeholder:text-lg"
+                  type="number"
+                  name="number"
+                  placeholder="Enter Your Phone "
                 />
               </div>
-            ) : (
+
               <div>
                 <label className="text-light-color-text dark:text-dark-color-text">
                   <span className="font-semibold  text-base md:text-lg ">
-                    Email
+                    Subject
                   </span>
                 </label>
                 <input
-                  className="w-full px-3 py-4 rounded-md bg-base-200 text-light-color-text  mt-2 md:mt-4 placeholder-light-color-text-60  placeholder:text-base md:placeholder:text-lg "
-                  type="email"
-                  name="email"
-                  placeholder="Enter Your Email"
+                  className="w-full px-3 py-4 rounded-md bg-base-200 text-light-color-text  mt-2 md:mt-4 placeholder-light-color-text-60  placeholder:text-base  md:placeholder:text-lg"
+                  type="text"
+                  name="subject"
+                  placeholder="Enter Subject "
                 />
               </div>
-            )}
-            <div>
-              <label className="text-light-color-text dark:text-dark-color-text">
-                <span className="font-semibold  text-base md:text-lg ">
-                  Phone Number
-                </span>
-              </label>
-              <input
-                className="w-full px-3 py-4 rounded-md bg-base-200 text-light-color-text  mt-2 md:mt-4 placeholder-light-color-text-60  placeholder:text-base  md:placeholder:text-lg"
-                type="number"
-                name="number"
-                placeholder="Enter Your Phone "
-              />
-            </div>
+              <div className="md:col-span-2">
+                <label className="text-light-color-text dark:text-dark-color-text">
+                  <span className="font-semibold text-base md:text-lg">
+                    Message
+                  </span>
+                </label>
+                <textarea
+                  className="w-full px-3 py-4 rounded-md bg-base-200 text-light-color-text mt-2 md:mt-4 placeholder-light-color-text-60 placeholder:text-base md:placeholder:text-lg"
+                  name="smessage"
+                  placeholder="Enter your message"
+                  rows="4"
+                ></textarea>
+              </div>
 
-            <div>
-              <label className="text-light-color-text dark:text-dark-color-text">
-                <span className="font-semibold  text-base md:text-lg ">
-                  Subject
-                </span>
-              </label>
-              <input
-                className="w-full px-3 py-4 rounded-md bg-base-200 text-light-color-text  mt-2 md:mt-4 placeholder-light-color-text-60  placeholder:text-base  md:placeholder:text-lg"
-                type="text"
-                name="subject"
-                placeholder="Enter Subject "
-              />
-            </div>
-            <div className="md:col-span-2">
-              <label className="text-light-color-text dark:text-dark-color-text">
-                <span className="font-semibold text-base md:text-lg">
-                  Message
-                </span>
-              </label>
-              <textarea
-                className="w-full px-3 py-4 rounded-md bg-base-200 text-light-color-text mt-2 md:mt-4 placeholder-light-color-text-60 placeholder:text-base md:placeholder:text-lg"
-                name="smessage"
-                placeholder="Enter your message"
-                rows="4"
-              ></textarea>
-            </div>
-
-            <div className="md:col-span-2">
-              <input
-                className="w-full  py-3 border-2 bg-light-primary  border-light-primary rounded-md hover:bg-light-accent hover:border-light-accent text-xl md:text-2xl
+              <div className="md:col-span-2">
+                <input
+                  className="w-full  py-3 border-2 bg-light-primary  border-light-primary rounded-md hover:bg-light-accent hover:border-light-accent text-xl md:text-2xl
             transition duration-300 ease-in-out dark:bg-dark-primary text-light-color-text dark:border-dark-primary dark:hover:bg-dark-secondary dark:hover:border-dark-secondary dark:hover:text-dark-color-text"
-                type="submit"
-                value="Message Us"
-              />
-            </div>
-          </form>
-        </div>
-        <div className="flex flex-col justify-center items-center gap-3">
+                  type="submit"
+                  value="Message Us"
+                />
+              </div>
+            </form>
+          </div>
+        </Fade>
+     <Fade duration={1200} direction="right">   <div className="flex flex-col justify-center items-center gap-3">
           <div className="dark:hidden w-[300px]">
             <img
               className="w-full h-full object-cover"
@@ -192,7 +196,7 @@ const ContactUs = () => {
               </div>
             </a>
           </div>
-        </div>
+        </div></Fade>
       </section>
     </div>
   );

@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialCard = ({ name, profession, country, mouth, image }) => {
   return (
     <div className="card bg-base-100  shadow-xl border border-light-primary border-opacity-50 dark:bg-neutral  dark:border-dark-secondary dark:border-opacity-50 ">
-      <figure className="px-10 pt-10 h-56 w-full">
+      <figure className="px-6 pt-6 h-80 w-full">
         <img
           src={image}
           alt="Shoes"
