@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Products = ({ allProductData }) => {
   return (
-    <div className="mb-6 md:mb-10 ">
+    <div className="mb-6 md:mb-10 mx-2 md:mx-0">
       <Title title={"  Our Products"}></Title>
 
       <Descriptions

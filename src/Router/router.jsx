@@ -13,6 +13,7 @@ import Update from "../Pages/Update";
 import Error from "../components/Error";
 import Faq from "../components/Faq";
 import ContactUs from "../components/ContactUs";
+import AboutUs from "../Pages/AboutUs";
 
 const router = createBrowserRouter([
   {
@@ -87,6 +88,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactUs></ContactUs>,
+      },
+      {
+        path: "/about-us",
+        element: <AboutUs></AboutUs>,
       },
     ],
   },

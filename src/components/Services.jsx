@@ -15,7 +15,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Services = () => {
   return (
-    <div>
+    <div className="mx-2 md:mx-0">
       <header className="">
         <Title title={"Services We Offer"}></Title>
         <Descriptions

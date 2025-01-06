@@ -114,7 +114,19 @@ const Navbar = () => {
           }`
         }
       >
-        <li className="px-2 py-2 hover:underline">Contact Us</li>
+        <li className="px-2 py-2 hover:underline">Contact</li>
+      </NavLink>
+      <NavLink
+        to={"/about-us"}
+        className={({ isActive }) =>
+          `rounded-md transition-all duration-300 ${
+            isActive
+              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-sm"
+              : "hover:underline text-sm"
+          }`
+        }
+      >
+        <li className="px-2 py-2 hover:underline">About Us</li>
       </NavLink>
     </>
   );

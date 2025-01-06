@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Testimonial = () => {
   return (
-    <div>
+    <div className="mx-2 md:mx-0">
       <Title title={"What Our Customers Are Saying"}></Title>
       <Descriptions
         description={
