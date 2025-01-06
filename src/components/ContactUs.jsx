@@ -106,7 +106,7 @@ const ContactUs = () => {
                 placeholder="Enter Subject "
               />
             </div>
-            <div className="col-span-2">
+            <div className="md:col-span-2">
               <label className="text-light-color-text dark:text-dark-color-text">
                 <span className="font-semibold text-base md:text-lg">
                   Message

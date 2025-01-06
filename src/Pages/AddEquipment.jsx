@@ -67,7 +67,6 @@ const AddEquipment = () => {
             <div className="mb-5 md:mb-7">
               <Title title={" Add New Product"}></Title>
             </div>
-
             <form
               onSubmit={handleAddProduct}
               className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6 md:mb-10"

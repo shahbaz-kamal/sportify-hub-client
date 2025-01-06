@@ -5,6 +5,7 @@ import logoDark from "../../src/assets/sportify_hub_logo_for_dark.png";
 import { Fade } from "react-awesome-reveal";
 import { AuthContext } from "../Provider/AuthProvider";
 import Swal from "sweetalert2";
+import { IoMdLogOut } from "react-icons/io";
 
 const Navbar = () => {
   const { user, setUser, logOut } = useContext(AuthContext);
@@ -31,8 +32,8 @@ const Navbar = () => {
         className={({ isActive }) =>
           `rounded-md transition-all duration-300 ${
             isActive
-              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-lg"
-              : "hover:underline text-base"
+              ? " bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-sm"
+              : "hover:underline text-sm"
           }`
         }
       >
@@ -43,8 +44,8 @@ const Navbar = () => {
         className={({ isActive }) =>
           `rounded-md transition-all duration-300 ${
             isActive
-              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-lg"
-              : "hover:underline text-base"
+              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-sm"
+              : "hover:underline text-sm"
           }`
         }
       >
@@ -56,8 +57,8 @@ const Navbar = () => {
           className={({ isActive }) =>
             `rounded-md transition-all duration-300 ${
               isActive
-                ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-lg"
-                : "hover:underline text-base"
+                ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-sm"
+                : "hover:underline text-sm"
             }`
           }
         >
@@ -72,8 +73,8 @@ const Navbar = () => {
           className={({ isActive }) =>
             `rounded-md transition-all duration-300 ${
               isActive
-                ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-lg"
-                : "hover:underline text-base"
+                ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-sm"
+                : "hover:underline text-sm"
             }`
           }
         >
@@ -88,13 +89,13 @@ const Navbar = () => {
         className={({ isActive }) =>
           `rounded-md transition-all duration-300 ${
             isActive
-              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-lg"
-              : "hover:underline text-base"
+              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-sm"
+              : "hover:underline text-sm"
           }`
         }
       >
         <li className="px-2 py-2 hover:underline">
-          Frequently Asked Questions
+         FAQ
         </li>
       </NavLink>
       {/* contact */}
@@ -103,8 +104,8 @@ const Navbar = () => {
         className={({ isActive }) =>
           `rounded-md transition-all duration-300 ${
             isActive
-              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-lg"
-              : "hover:underline text-base"
+              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-sm"
+              : "hover:underline text-sm"
           }`
         }
       >
@@ -211,7 +212,10 @@ const Navbar = () => {
               data-tooltip-place="top"
               className="text-base md:text-lg px-3 py-2 rounded-lg font-semibold bg-light-primary text-light-color-text hover:bg-light-secondary dark:bg-dark-primary dark:hover:text-dark-color-text dark:hover:bg-dark-secondary transition ease-in-out duration-300"
             >
-              Log Out
+              <span className="hidden md:block"> Log Out </span>{" "}
+              <span className="md:hidden">
+                <IoMdLogOut />
+              </span>
             </button>
           </Fade>
         ) : (
