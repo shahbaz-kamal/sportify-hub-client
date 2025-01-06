@@ -14,8 +14,9 @@ import { Fade } from "react-awesome-reveal";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="h-[70vh]">
       <Swiper
+        className="h-[70vh] rounded-md"
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
@@ -25,7 +26,7 @@ const Banner = () => {
         scrollbar={{ draggable: true }}
       >
         <SwiperSlide className="w-full">
-          <div className="w-full h-[100vh] rounded-xl relative">
+          <div className="w-full  rounded-xl relative">
             <img
               className="w-full h-full object-cover rounded-xl"
               src="https://i.ibb.co.com/8bz9gnP/banner-1.jpg"
