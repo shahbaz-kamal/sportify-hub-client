@@ -1,0 +1,82 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Equipment Maintenance & Repairs",
+        "description": "Keep your gear in top condition with expert maintenance, including restringing, skate sharpening, and fixing damages.",
+        "icon": "https://img.icons8.com/?size=50&id=11151&format=png",
+        "priceRange": "$10 - $50"
+      },
+      {
+        "id": 2,
+        "title": "Gear Customization Services",
+        "description": "Personalize your sports gear with custom names, logos, or designs for jerseys, bats, and trophies.",
+        "icon": "https://img.icons8.com/?size=80&id=B4iQI9lqIq7c&format=png",
+        "priceRange": "$15 - $100"
+      },
+      {
+        "id": 3,
+        "title": "Short-Term Equipment Rental",
+        "description": "Rent high-quality sports gear like rackets, footballs, and gym equipment for short-term needs.",
+        "icon": "https://img.icons8.com/?size=80&id=7tAMomgjJM3m&format=png",
+        "priceRange": "$5 - $30/day"
+      },
+      {
+        "id": 4,
+        "title": "Professional Training Sessions",
+        "description": "Learn from top coaches with training sessions designed for athletes of all skill levels and disciplines.",
+        "icon": "https://img.icons8.com/?size=80&id=L7kvrgzKYqR1&format=png",
+        "priceRange": "$25 - $75/session"
+      },
+      {
+        "id": 5,
+        "title": "Gear Fitting & Consultations",
+        "description": "Receive expert advice on selecting the right equipment, from shoe fittings to cricket bat consultations.",
+        "icon": "https://img.icons8.com/?size=50&id=52230&format=png",
+        "priceRange": "Free - $20"
+      },
+      {
+        "id": 6,
+        "title": "Delivery & Setup Services",
+        "description": "Convenient delivery and installation services for large sports equipment like treadmills and hoops.",
+        "icon": "https://img.icons8.com/?size=48&id=w09NL61Lg27t&format=png",
+        "priceRange": "$20 - $100"
+      },
+      {
+        "id": 7,
+        "title": "Consumable Subscription Plans",
+        "description": "Subscribe for regular deliveries of essentials like shuttlecocks, balls, or maintenance services.",
+        "icon": "📅",
+        "priceRange": "$10 - $50/month"
+      },
+      {
+        "id": 8,
+        "title": "Community Events & Sponsorships",
+        "description": "Participate in or sponsor local sports events to engage with the community and gain visibility.",
+        "icon": "🏆",
+        "priceRange": "Event-based"
+      },
+      {
+        "id": 9,
+        "title": "Virtual Training & Resources",
+        "description": "Access online tutorials, training guides, and virtual coaching sessions to enhance your skills at home.",
+        "icon": "💻",
+        "priceRange": "$10 - $40"
+      },
+      {
+        "id": 10,
+        "title": "Team & Club Bulk Discounts",
+        "description": "Enjoy exclusive bulk discounts for schools, clubs, and sports teams on group purchases.",
+        "icon": "🤝",
+        "priceRange": "Discount-based"
+      },
+      {
+        "id": 11,
+        "title": "Eco-Friendly Recycling Programs",
+        "description": "Recycle old sports equipment responsibly and support our initiative for a sustainable future.",
+        "icon": "🌍",
+        "priceRange": "Free"
+      }
+    ]
+  }
+  

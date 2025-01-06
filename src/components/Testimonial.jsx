@@ -1,12 +1,18 @@
 import React from "react";
 import Title from "./Title";
 import TestimonialCard from "./TestimonialCard";
+import Descriptions from "./Descriptions";
 
 const Testimonial = () => {
   return (
     <div>
-      <Title title={"Our Happy Clients"}></Title>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4 md:mt-5">
+      <Title title={"What Our Customers Are Saying"}></Title>
+      <Descriptions
+        description={
+          "Real stories from satisfied customers who trust us for their sports needs"
+        }
+      ></Descriptions>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 ">
         <div>
           <TestimonialCard
             image={"https://i.ibb.co.com/NysRHdp/litton-das.jpg"}
@@ -14,7 +20,7 @@ const Testimonial = () => {
             profession={"Cricketer"}
             country={"Bangladesh"}
             mouth={
-              "❛Sportify Hub has been my go-to place for top-notch cricket gear. Their premium-grade bats and gloves gave me the perfect edge in my game. Using their gear, I felt more confident and comfortable at the crease, and it showed when I scored a career-defining 176 against Zimbabwe. Sportify Hub isn't just about selling equipment; they equip athletes with the tools to succeed!❜"
+              "❛Sportify Hub is my go-to for top cricket gear. Their premium bats and gloves gave me the edge to score a career-defining 176 against Zimbabwe. They equip athletes with the tools to succeed, not just sell equipment!❜"
             }
           ></TestimonialCard>
         </div>
@@ -25,7 +31,29 @@ const Testimonial = () => {
             profession={"Cricketer"}
             country={"Australia"}
             mouth={
-              "❛Sportify Hub’s cricket gear is second to none! Their high-performance bat and protective equipment gave me the confidence to take on the world's best bowlers. With their gear in hand, I played some of my best cricket and helped Australia lift the World Cup in 2024. Sportify Hub doesn’t just sell equipment—they empower champions!❜"
+              "❛Sportify Hub’s cricket gear is great! Their high-performance bat and protective equipment gave me confidence against the best bowlers, helping Australia lift the 2024 World Cup. They don’t just sell gear—they empower champions!❜"
+            }
+          ></TestimonialCard>
+        </div>
+        <div>
+          <TestimonialCard
+            image={"https://i.ibb.co.com/gz5ZqDs/butler.webp"}
+            name={"Jos Butler"}
+            profession={"Cricketer"}
+            country={"England"}
+            mouth={
+              "❛Sportify Hub’s equipment is top-tier! Their innovative designs and quality gave me the edge to excel under pressure. Whether smashing sixes in the IPL or leading England to another trophy, their gear fuels champions to make history.❜"
+            }
+          ></TestimonialCard>
+        </div>
+        <div>
+          <TestimonialCard
+            image={"https://i.ibb.co.com/FJ3pTsd/messi.jpg"}
+            name={"Lionel Messi"}
+            profession={"Footballer"}
+            country={"Argentina"}
+            mouth={
+              "❛Sportify Hub’s gear is exceptional! Their boots and apparel gave me the agility and precision to excel, helping me lead Argentina to World Cup glory. They don’t just sell sportswear—they empower athletes to create unforgettable moments!❜"
             }
           ></TestimonialCard>
         </div>

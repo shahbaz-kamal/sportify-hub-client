@@ -17,18 +17,18 @@ const TestimonialCard = ({ name, profession, country, mouth, image }) => {
         <hr className="border-t border-light-primary w-full border-opacity-40 my-2 dark:border-dark-secondary dark:border-opacity-40" />
         <div className="flex items-center justify-between gap-2 w-full">
           <p>
-            <span className="">Profession : </span>
+      
             <span className="opacity-75">{profession}</span>
           </p>
           <p>
-            <span className="">Country : </span>
+         
             <span className="opacity-75">{country}</span>
           </p>
         </div>
         <hr className="border-t border-light-primary w-full border-opacity-40 my-2 dark:border-dark-secondary dark:border-opacity-40" />
 
         <div className="text-start">
-          <span className="">Word of mouth : </span>
+       
           <span className="opacity-75 italic">{mouth}</span>
         </div>
       </div>

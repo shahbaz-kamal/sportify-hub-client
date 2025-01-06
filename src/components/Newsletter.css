@@ -1,0 +1,7 @@
+.news {
+    background-image: url('../assets/newsLetterbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center;
+    background-blend-mode: color;
+}

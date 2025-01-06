@@ -6,6 +6,7 @@ import { Fade } from "react-awesome-reveal";
 import { AuthContext } from "../Provider/AuthProvider";
 import Swal from "sweetalert2";
 import { IoMdLogOut } from "react-icons/io";
+import { TbLogin } from "react-icons/tb";
 
 const Navbar = () => {
   const { user, setUser, logOut } = useContext(AuthContext);
@@ -94,9 +95,7 @@ const Navbar = () => {
           }`
         }
       >
-        <li className="px-2 py-2 hover:underline">
-         FAQ
-        </li>
+        <li className="px-2 py-2 hover:underline">FAQ</li>
       </NavLink>
       {/* contact */}
       <NavLink
@@ -213,7 +212,7 @@ const Navbar = () => {
               className="text-base md:text-lg px-3 py-2 rounded-lg font-semibold bg-light-primary text-light-color-text hover:bg-light-secondary dark:bg-dark-primary dark:hover:text-dark-color-text dark:hover:bg-dark-secondary transition ease-in-out duration-300"
             >
               <span className="hidden md:block"> Log Out </span>{" "}
-              <span className="md:hidden">
+              <span className="md:hidden text-black">
                 <IoMdLogOut />
               </span>
             </button>
@@ -227,7 +226,10 @@ const Navbar = () => {
                 data-tooltip-place="top"
                 className="text-base md:text-lg px-3 py-2 rounded-lg font-semibold bg-light-primary text-light-color-text hover:bg-light-secondary dark:bg-dark-primary dark:hover:text-dark-color-text dark:hover:bg-dark-secondary transition ease-in-out duration-300"
               >
-                Log In
+                <span className="hidden md:block"> Log In</span>{" "}
+                <span className="md:hidden text-black">
+                <TbLogin />
+                </span>
               </button>
             </Fade>
           </Link>
