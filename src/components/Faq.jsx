@@ -8,7 +8,7 @@ const Faq = () => {
         {" "}
         <Title title={"FAQ"}></Title>
       </div>
-      <div className="collapse collapse-arrow bg-base-200 mb-4 dark:bg-neutral">
+      <div className="collapse collapse-arrow bg-base-100 shadow-md mb-4 dark:bg-neutral">
         <input type="radio" name="my-accordion-2" defaultChecked />
         <div className="collapse-title text-xl font-medium text-light-color-text dark:text-dark-color-text ">
           1. What is Sportify Hub?
@@ -22,7 +22,7 @@ const Faq = () => {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200 mb-4 dark:bg-neutral">
+      <div className="collapse collapse-arrow bg-base-100 shadow-md mb-4 dark:bg-neutral">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium text-light-color-text dark:text-dark-color-text">
           2. Do you offer international shipping?
@@ -34,7 +34,7 @@ const Faq = () => {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200 mb-4 dark:bg-neutral">
+      <div className="collapse collapse-arrow bg-base-100 shadow-md mb-4 dark:bg-neutral">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium text-light-color-text dark:text-dark-color-text">
           3. Can I return or exchange a product?
@@ -47,7 +47,7 @@ const Faq = () => {
           </p>
         </div>
       </div>
-      <div className="collapse collapse-arrow bg-base-200 mb-4 dark:bg-neutral">
+      <div className="collapse collapse-arrow bg-base-100 shadow-md mb-4 dark:bg-neutral">
         <input type="radio" name="my-accordion-2" />
         <div className="collapse-title text-xl font-medium text-light-color-text dark:text-dark-color-text">
           4. How can I track my order?

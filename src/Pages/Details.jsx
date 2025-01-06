@@ -21,7 +21,7 @@ const Details = () => {
   } = data;
 
   return (
-    <div className="container mx-auto mb-6 md:mb-10 px-2 md:px-0 bg-base-200 dark:bg-neutral">
+    <div className="container mx-auto mb-6 md:mb-10 px-2 md:px-0 bg-base-200 dark:bg-neutral rounded-md">
       <div className="flex items-center md:items-center flex-col md:flex-row gap-6 p-6 rounded-lg">
         <div className="w-[35%] rounded-lg">
           <img className="w-full object-cover rounded-lg" src={photo} alt="" />
@@ -36,9 +36,10 @@ const Details = () => {
               <span className="">Category : </span>
               <span className="opacity-75">{category}</span>
             </p>
-            <p>
-              <span className="">price : </span>
-              <span className="opacity-75">${price}</span>
+            <p className="p-2 rounded-md bg-light-primary bg-opacity-20 dark:bg-dark-primary dark:bg-opacity-20">
+              <span className="opacity-75 text-light-accent font-bold dark:text-accent">
+                $ {price}
+              </span>
             </p>
           </div>
           <hr className="border-t border-light-primary w-full border-opacity-40 my-2 dark:border-dark-secondary dark:border-opacity-40" />

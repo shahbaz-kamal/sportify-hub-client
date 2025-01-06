@@ -95,8 +95,8 @@ const LogIn = () => {
   };
 
   return (
-    <div className="text-light-color-text w-full md:max-w-[72%] lg:max-w-[68.75%] px-2 md:px-0 mx-auto pt-6 bg-base-100 rounded-lg shadow-xl py-4 md:py-5 mb-6 md:mb-10 dark:bg-neutral dark:text-dark-color-text ">
-      <div>
+    <div className=" text-light-color-text w-full md:max-w-[72%] lg:max-w-[68.75%] px-2 md:px-0 mx-auto  bg-base-100 rounded-lg shadow-xl py-4 md:py-5 mb-6 md:mb-10 dark:bg-neutral dark:text-dark-color-text ">
+      <div className="">
         <div className="  px-10 md:px-16 lg:px-28 rounded-md">
           <div>
             <div className="mb-5 md:mb-7">

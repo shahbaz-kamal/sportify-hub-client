@@ -34,9 +34,9 @@ const ProductCard = ({ product }) => {
             <span className="">Category : </span>
             <span className="opacity-75">{category}</span>
           </p>
-          <p>
-            <span className="">price : </span>
-            <span className="opacity-75">${price}</span>
+          <p className="p-2 rounded-md bg-light-primary bg-opacity-30 dark:bg-dark-primary dark:bg-opacity-20">
+         
+            <span className="opacity-75 text-light-accent font-bold dark:text-accent">$ {price}</span>
           </p>
         </div>
         <hr className="border-t border-light-primary w-full border-opacity-40 my-2 dark:border-dark-secondary dark:border-opacity-40" />

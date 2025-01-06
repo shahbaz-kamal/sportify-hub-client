@@ -52,11 +52,7 @@ const router = createBrowserRouter([
       { path: "/register", element: <Register></Register> },
       {
         path: "/details/:id",
-        element: (
-          <PrivateRoute>
-            <Details></Details>
-          </PrivateRoute>
-        ),
+        element: <Details></Details>,
         loader: ({ params }) =>
           fetch(
             `https://sportify-hub-server-navy.vercel.app/details/${params.id}`

@@ -97,7 +97,7 @@ const Navbar = () => {
   }, [isDarkMode]);
   console.log(isDarkMode);
   return (
-    <div className="navbar container mx-auto text-[#333333]">
+    <div className="navbar container mx-auto text-[#333333] ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -240,7 +240,7 @@ const Navbar = () => {
               value="synthwave"
               className="toggle theme-controller"
             />
-            <svg
+            <svg className="dark:text-dark-primary"
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"

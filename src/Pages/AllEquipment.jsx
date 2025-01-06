@@ -16,7 +16,7 @@ const AllEquipment = () => {
     setProductData(sortedData);
   };
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto pt-[120px]">
       <div>
         <Title title={"All Equipment"}></Title>
       </div>

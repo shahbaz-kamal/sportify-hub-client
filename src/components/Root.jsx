@@ -11,11 +11,11 @@ const Root = () => {
     return <Loading></Loading>;
   } else {
     return (
-      <div className="pt-2 md:pt-3">
-        <nav className="mb-5 md:mb-8">
+      <div className=" ">
+        <nav className="py-1  mb-5 md:mb-8 bg-[#d0e2b5] bg-opacity-60 dark:bg-neutral dark:bg-opacity-80 fixed z-10 w-full" >
           <Navbar></Navbar>
         </nav>
-        <section>
+        <section className="pt-[120px]">
           <Outlet></Outlet>
         </section>
         <section className="bg-neutral">
