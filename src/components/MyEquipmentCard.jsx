@@ -59,38 +59,38 @@ const MyEquipmentCard = ({
       }
     });
   };
-  //   const handleDelete = () => {
-  //     const data = fetch(`https://sportify-hub-server-navy.vercel.app/my-equipment/${_id}`, {
-  //       method: "DELETE",
-  //     })
-  //       .then((res) => res.json())
-  //       .then((info) => {
-  //         console.log(info);
-  //         Swal.fire({
-  //           title: "Are you sure?",
-  //           text: "You won't be able to revert this!",
-  //           icon: "warning",
-  //           showCancelButton: true,
-  //           confirmButtonColor: "#3085d6",
-  //           cancelButtonColor: "#d33",
-  //           confirmButtonText: "Yes, delete it!",
-  //         }).then((result) => {
-  //           if (result.isConfirmed) {
-  //             if (info.deletedCount > 0) {
-  //               const newProduct = loggedInUsersProduct.filter(
-  //                 (product) => product._id !== _id
-  //               );
-  //               setLoggedInUsersProduct(newProduct);
-  //               Swal.fire({
-  //                 title: "Deleted!",
-  //                 text: "Your product has been deleted.",
-  //                 icon: "success",
-  //               });
-  //             }
-  //           }
-  //         });
-  //       });
-  //   };
+    // const handleDelete = () => {
+    //   const data = fetch(`https://sportify-hub-server-navy.vercel.app/my-equipment/${_id}`, {
+    //     method: "DELETE",
+    //   })
+    //     .then((res) => res.json())
+    //     .then((info) => {
+    //       console.log(info);
+    //       Swal.fire({
+    //         title: "Are you sure?",
+    //         text: "You won't be able to revert this!",
+    //         icon: "warning",
+    //         showCancelButton: true,
+    //         confirmButtonColor: "#3085d6",
+    //         cancelButtonColor: "#d33",
+    //         confirmButtonText: "Yes, delete it!",
+    //       }).then((result) => {
+    //         if (result.isConfirmed) {
+    //           if (info.deletedCount > 0) {
+    //             const newProduct = loggedInUsersProduct.filter(
+    //               (product) => product._id !== _id
+    //             );
+    //             setLoggedInUsersProduct(newProduct);
+    //             Swal.fire({
+    //               title: "Deleted!",
+    //               text: "Your product has been deleted.",
+    //               icon: "success",
+    //             });
+    //           }
+    //         }
+    //       });
+    //     });
+    // };
 
   return (
     <div className="card bg-base-100  shadow-xl border border-light-primary border-opacity-50 dark:bg-neutral  dark:border-dark-secondary dark:border-opacity-50 ">

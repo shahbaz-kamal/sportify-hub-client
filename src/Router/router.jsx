@@ -11,6 +11,8 @@ import Details from "../Pages/Details";
 import PrivateRoute from "./PrivateRoute";
 import Update from "../Pages/Update";
 import Error from "../components/Error";
+import Faq from "../components/Faq";
+import ContactUs from "../components/ContactUs";
 
 const router = createBrowserRouter([
   {
@@ -73,6 +75,14 @@ const router = createBrowserRouter([
       {
         path: "*",
         element: <Error></Error>,
+      },
+      {
+        path: "/faq",
+        element: <Faq></Faq>,
+      },
+      {
+        path: "/contact",
+        element: <ContactUs></ContactUs>,
       },
     ],
   },

@@ -65,7 +65,7 @@ const AddEquipment = () => {
         <div className="  px-10 md:px-16 lg:px-28 rounded-md">
           <div>
             <div className="mb-5 md:mb-7">
-              <Title title={" Add New Equipment"}></Title>
+              <Title title={" Add New Product"}></Title>
             </div>
 
             <form

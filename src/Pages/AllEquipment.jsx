@@ -16,9 +16,9 @@ const AllEquipment = () => {
     setProductData(sortedData);
   };
   return (
-    <div className="container mx-auto pt-[120px]">
+    <div className="container mx-auto">
       <div>
-        <Title title={"All Equipment"}></Title>
+        <Title title={"All Products"}></Title>
       </div>
       <div className="mb-4">
         <Descriptions
@@ -33,10 +33,10 @@ const AllEquipment = () => {
           <span> Sort by Price </span>
         </button>
       </div>
-      <div className="">
-        <div className="overflow-x-auto mb-6 md:mb-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {/* <div className="overflow-x-auto mb-6 md:mb-10">
           <table className="table">
-            {/* head */}
+            head
             <thead className="dark:text-dark-color-text">
               <tr>
                 <th>
@@ -62,7 +62,9 @@ const AllEquipment = () => {
               ))}
             </tbody>
           </table>
-        </div>
+        </div> */}
+        {productData.map(product=><ProductCard key={product._id} product={product}></ProductCard>)}
+
       </div>
     </div>
   );

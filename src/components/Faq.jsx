@@ -3,7 +3,7 @@ import Title from "./Title";
 
 const Faq = () => {
   return (
-    <div className="mb-6 md:mb-10">
+    <div className="mb-6 md:mb-10 container mx-auto">
       <div className="mb-5 md:mb-8">
         {" "}
         <Title title={"FAQ"}></Title>

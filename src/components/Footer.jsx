@@ -15,7 +15,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Footer = () => {
   return (
-    <footer className="  text-neutral-content p-10 container mx-auto">
+    <footer className="  text-neutral-content p-10 container mx-auto mt-20">
       <div className="flex justify-center items-center md:justify-around flex-col md:flex-row gap-6  md:gap-0">
         <div className="flex flex-col md:block justify-center items-center space-y-2">
           <Fade duration={1200} direction="down">

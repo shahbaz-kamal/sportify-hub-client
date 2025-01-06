@@ -1,9 +1,12 @@
 import React from "react";
+import { CiEdit } from "react-icons/ci";
 import { FaRegEye, FaTrash } from "react-icons/fa";
 import { MdModeEdit } from "react-icons/md";
 import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
 
-const EquipmentTable = ({ product, index }) => {
+const EquipmentTable = ({ product, index ,loggedInUsersProduct,
+  setLoggedInUsersProduct}) => {
   const {
     category,
     stock_status,
@@ -17,6 +20,41 @@ const EquipmentTable = ({ product, index }) => {
     available_quantity,
     _id,
   } = product;
+   const handleDelete = () => {
+      Swal.fire({
+        title: "Are you sure?",
+        text: "You won't be able to revert this!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, delete it!",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          const toBedeleted = fetch(
+            `https://sportify-hub-server-navy.vercel.app/my-equipment/${_id}`,
+            {
+              method: "DELETE",
+            }
+          )
+            .then((res) => res.json())
+            .then((data) => {
+              console.log(data);
+              if (data.deletedCount > 0) {
+                const newProduct = loggedInUsersProduct.filter(
+                  (product) => product._id !== _id
+                );
+                setLoggedInUsersProduct(newProduct);
+                Swal.fire({
+                  title: "Deleted!",
+                  text: "Your file has been deleted.",
+                  icon: "success",
+                });
+              }
+            });
+        }
+      });
+    };
   return (
     <>
       <tr className="dark:text-dark-color-text">
@@ -46,19 +84,26 @@ const EquipmentTable = ({ product, index }) => {
         <td className="text-center">{available_quantity}</td>
         <td className="text-center">{rating}</td>
         <td>
-          <div className="flex  mr-6 gap-4 f-row">
-            <Link>
-              <div className="relative group">
-                <div className="absolute top-[-25px] left-0 right-0 text-center text-light-color-text   rounded opacity-0 group-hover:opacity-100  transition-opacity duration-300 ease-in-out">
-                  Details
-                </div>
-                <Link to={`/details/${_id}`}>
-                  <div className=" rounded-md p-[10px] hover:cursor-pointer hover:scale-110 transition duration-300 ease-in-out">
-                    <FaRegEye color="#03A9F4" size={25}></FaRegEye>
-                  </div>
-                </Link>
+          <div className="flex gap-3">
+            <Link to={`/update/${_id}`}>
+              <div
+                className="bg-[#E6F7FF] dark:bg-[#001F3F]  p-2 rounded-full"
+                data-tooltip-id="my-tooltip"
+                data-tooltip-content="Edit this Product"
+                data-tooltip-place="top"
+              >
+                <CiEdit color="#1E90FF" size={25}></CiEdit>
               </div>
             </Link>
+            <div
+              onClick={handleDelete}
+              className="bg-[#F5F5F5] dark:bg-[#2C2C2C] p-2 rounded-full"
+              data-tooltip-id="my-tooltip"
+              data-tooltip-content="Delete this Product"
+              data-tooltip-place="top"
+            >
+              <FaTrash color="red" size={25}></FaTrash>
+            </div>
           </div>
         </td>
       </tr>

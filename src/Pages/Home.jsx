@@ -17,15 +17,15 @@ const Home = () => {
       <section className="container mx-auto">
         <Products allProductData={allProductData}></Products>
       </section>
-      <section className="container mx-auto">
+      {/* <section className="container mx-auto">
         <SportsCategory allProductData={allProductData}></SportsCategory>
-      </section>
+      </section> */}
       <section className="container mx-auto">
         <Testimonial></Testimonial>
       </section>
-      <section className="container mx-auto">
+      {/* <section className="container mx-auto">
         <Faq></Faq>
-      </section>
+      </section> */}
     </div>
   );
 };

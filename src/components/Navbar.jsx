@@ -48,7 +48,7 @@ const Navbar = () => {
           }`
         }
       >
-        <li className="px-2 py-2 hover:underline">All Equipment</li>
+        <li className="px-2 py-2 hover:underline">All Products</li>
       </NavLink>
       {user && user?.email ? (
         <NavLink
@@ -61,7 +61,7 @@ const Navbar = () => {
             }`
           }
         >
-          <li className="px-2 py-2 hover:underline">Add Equipment</li>
+          <li className="px-2 py-2 hover:underline">Add Product</li>
         </NavLink>
       ) : (
         ""
@@ -77,11 +77,39 @@ const Navbar = () => {
             }`
           }
         >
-          <li className="px-2 py-2 hover:underline">My Equipment</li>
+          <li className="px-2 py-2 hover:underline">My Product</li>
         </NavLink>
       ) : (
         ""
       )}
+      {/* FAQ */}
+      <NavLink
+        to={"/faq"}
+        className={({ isActive }) =>
+          `rounded-md transition-all duration-300 ${
+            isActive
+              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-lg"
+              : "hover:underline text-base"
+          }`
+        }
+      >
+        <li className="px-2 py-2 hover:underline">
+          Frequently Asked Questions
+        </li>
+      </NavLink>
+      {/* contact */}
+      <NavLink
+        to={"/contact"}
+        className={({ isActive }) =>
+          `rounded-md transition-all duration-300 ${
+            isActive
+              ? "bg-light-secondary font-semibold underline dark:bg-dark-secondary dark:text-dark-color-text text-lg"
+              : "hover:underline text-base"
+          }`
+        }
+      >
+        <li className="px-2 py-2 hover:underline">Contact Us</li>
+      </NavLink>
     </>
   );
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -166,7 +194,7 @@ const Navbar = () => {
           >
             <img
               className="w-full h-full object-cover rounded-full"
-              src={user.photoURL || ""} 
+              src={user.photoURL || ""}
               alt="User photo"
             />
           </div>
@@ -240,7 +268,8 @@ const Navbar = () => {
               value="synthwave"
               className="toggle theme-controller"
             />
-            <svg className="dark:text-dark-primary"
+            <svg
+              className="dark:text-dark-primary"
               xmlns="http://www.w3.org/2000/svg"
               width="20"
               height="20"
