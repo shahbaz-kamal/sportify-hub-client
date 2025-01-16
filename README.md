@@ -103,9 +103,10 @@
 ## 🔧 Installation Guidline:
 
 <h3 align="center">
-  Front End
-  <img src="https://cdn-icons-png.flaticon.com/128/1055/1055666.png" alt="Front End Icon" width="30" height="30" style="vertical-align:middle; margin-left:10px;" />
+  Front End  
+  <img src="https://cdn-icons-png.flaticon.com/128/1055/1055666.png" alt="Front End Icon" width="20" height="20" style="vertical-align:middle; margin-left:5px;" />
 </h3>
+
 
 1. First clone the project by running
 
