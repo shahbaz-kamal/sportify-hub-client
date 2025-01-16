@@ -150,5 +150,20 @@ npm run dev
   <span style="font-size: 20px; font-weight: bold;">Backend</span>
   <img src="https://cdn-icons-png.flaticon.com/128/6213/6213731.png" alt="Front End Icon" width="15" height="15" style="margin-left: 8px;" />
 </p>
+1. First clone the project by running
 
+```bash
+  git clone https://github.com/shahbaz-kamal/sportify-hub-server.git
+```
+2. Change your directory to the cloned folder by
+
+```bash
+  cd folder_name
+```
+
+3. Run the following to install dependencies:
+
+```bash
+npm install
+```
 ###
