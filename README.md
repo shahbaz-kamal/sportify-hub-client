@@ -102,10 +102,11 @@
 
 ## 🔧 Installation Guidline:
 
-<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 10px;">
-  <h3>Front End</h3>
-  <img src="https://cdn-icons-png.flaticon.com/128/1055/1055666.png" alt="Front End Icon" width="20" height="20" />
-</div>
+<p align="center" style="display: flex; align-items: center; justify-content: center;">
+  <span style="font-size: 20px; font-weight: bold;">Front End</span>
+  <img src="https://cdn-icons-png.flaticon.com/128/1055/1055666.png" alt="Front End Icon" width="20" height="20" style="margin-left: 8px;" />
+</p>
+
 
 
 1. First clone the project by running
