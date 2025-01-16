@@ -166,4 +166,12 @@ npm run dev
 ```bash
 npm install
 ```
+4. Create a mongodb database & put your mongodb uri. 
+5. Create a .env file in the root directory and put the following code:
+
+```bash
+DB_USER=your mongodb username
+DB_PASS=your mongodb Password
+```
+
 ###
