@@ -14,11 +14,21 @@
 
 ## 🔗 Live Link
 
-<!-- <h3 align="left"></h3> -->
+
 
 ###
 
 <p align="left">https://sportify-hub-website.netlify.app/</p>
+
+###
+## 🔗 Server side link
+
+
+
+###
+
+<p align="left">Github: https://github.com/shahbaz-kamal/sportify-hub-server</p>
+<p align="left">Live: https://vercel.com/shahbazs-projects-fc08e2cf/sportify-hub-server</p>
 
 ###
 
