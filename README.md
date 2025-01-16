@@ -1,14 +1,14 @@
 <div align="center">
-  <img height="400" src="https://raw.githubusercontent.com/shahbaz-kamal/career-compass-website/refs/heads/main/src/assets/for_github_banner.jpg"  />
+  <img height="400" src="https://raw.githubusercontent.com/shahbaz-kamal/sportify-hub-client/refs/heads/main/src/assets/github_banner.jpg"  />
 </div>
 
 ###
 
-<h1 align="left">Career Compass: Your Personalized Career Guidance Platform 🌟</h1>
+<h1 align="left">Sportify Hub – Your One-Stop Sports Equipment Store 🤾🏼‍♂️</h1>
 
 ###
 
-<p align="left">Career Compass is a responsive and user-friendly web application designed to assist users in their career growth by providing personalized guidance and resources. Built with React, Firebase Authentication, and Tailwind CSS, it features secure login, password management, customizable profiles, and a dedicated section to showcase certifications and achievements. Users can access curated career resources and FAQs to make informed decisions, while the platform ensures scalability and modern design best practices. Perfect for those seeking a seamless and intuitive career development tool.</p>
+<p align="left">Sportify Hub is a responsive and feature-rich e-commerce platform for sports enthusiasts. The platform allows users to browse, manage, and purchase high-quality sports equipment while enjoying a seamless user experience. With secure user authentication, dynamic product management, and interactive features like sorting, dark/light mode toggle, and engaging animations, Sportify Hub is designed to cater to diverse sports disciplines and customer needs.</p>
 
 ###
 ## 🔗 Live Link
