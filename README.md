@@ -102,12 +102,15 @@
 
 ## 🔧 Installation Guidline:
 
-<!-- <h3 align="left"></h3> -->
+<h3 align="center">
+  Front End
+  <img src="https://cdn-icons-png.flaticon.com/128/1055/1055666.png" alt="Front End Icon" width="30" height="30" style="vertical-align:middle; margin-left:10px;" />
+</h3>
 
 1. First clone the project by running
 
 ```bash
-  git clone https://github.com/shahbaz-kamal/career-compass-website.git
+  git clone https://github.com/shahbaz-kamal/sportify-hub-client.git
 ```
 
 2. Change your directory to the cloned folder by
