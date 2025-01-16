@@ -166,12 +166,33 @@ npm run dev
 ```bash
 npm install
 ```
-4. Create a mongodb database & put your mongodb uri. 
-5. Create a .env file in the root directory and put the following code:
+4. Put your Mongodb uri in the constant named uri. 
+5. Create a MongoDB user by keeping username and password collected &  create a .env file in the root directory and put the following code:
 
 ```bash
-DB_USER=your mongodb username
-DB_PASS=your mongodb Password
+DB_USER=your_mongodb_username
+DB_PASS=your_mongodb_Password
+```
+6. Put the following code instead of  <db_username>:
+
+```bash
+${process.env.DB_USER}
+```
+7. Put the following code instead of  <db_password>:
+
+```bash
+${process.env.DB_PASS}
+```
+8. Run the following command and open the website locally on port 5000:
+
+
+```bash
+npm start
+```
+9. visit :
+
+```bash
+npm start
 ```
 
 ###
