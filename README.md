@@ -146,9 +146,9 @@ VITE_appId=your_api_id
 npm run dev
 ```
 
-<h3 align="center">
-Backend 
-  <img src="https://cdn-icons-png.flaticon.com/128/1055/1055666.png" alt="Front End Icon" width="30" height="30" style="vertical-align:middle; margin-left:10px;" />
-</h3>
+<p align="center" style="display: flex; align-items: center; justify-content: center;">
+  <span style="font-size: 20px; font-weight: bold;">Backend</span>
+  <img src="https://cdn-icons-png.flaticon.com/128/16318/16318927.png" alt="Front End Icon" width="15" height="15" style="margin-left: 8px;" />
+</p>
 
 ###
