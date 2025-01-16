@@ -127,13 +127,9 @@
 npm install
 ```
 
-4. Run the following to install dependencies:
 
-```bash
-npm install
-```
 
-5. Create a firebase project and a file named .env.local in your root folder & use your firebase credintials as follows:
+4. Create a firebase project and a file named .env.local in your root folder & use your firebase credintials as follows:
 
 ```bash
 VITE_apiKey=your_api_key
@@ -144,7 +140,7 @@ VITE_messagingSenderId=your_messagingSenderId
 VITE_appId=your_api_id
 ```
 
-6. Run the following command and open the website locally on port 5173:
+5. Run the following command and open the website locally on port 5173:
 
 ```bash
 npm run dev
