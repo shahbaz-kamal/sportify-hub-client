@@ -4,7 +4,7 @@
 
 ###
 
-<h1 align="left">Sportify Hub – Your One-Stop Sports Equipment Store 🤾🏼‍♂️</h1>
+<h1 align="left">Sportify Hub – One-Stop Sports Equipment Store 🤾🏼‍♂️</h1>
 
 ###
 
@@ -16,7 +16,7 @@
 
 ###
 
-<p align="left">https://career-compass-website-by-shahbaz.netlify.app/</p>
+<p align="left">https://sportify-hub-website.netlify.app/</p>
 
 ###
 
@@ -24,21 +24,38 @@
 
 ###
 
-### 1. **Personalized Career Advice**
-- Tailored career recommendations based on user profiles and preferences.
+1. **Responsive Design**  
+   - Fully responsive layout built with Tailwind CSS, ensuring a seamless experience on mobile, tablet, and desktop devices.
 
-### 2. **User Authentication**
-- Secure login and sign-up using **Firebase Authentication**.
-- **Google Sign-in** for quick and easy access.
+2. **User Authentication**  
+   - Secure login and registration using Firebase Authentication with Google Sign-in for quick access.  
+   - Conditional navigation based on the user's login state, displaying user information or authentication options.
 
-### 3. **Profile Management**
-- Users can update their personal details, including name and profile picture, to maintain a personalized experience.
+3. **Product Management**  
+   - Add, update, and delete sports equipment data with features like stock status, customization options, and more.  
+   - Private routes ensure data privacy and secure access.
 
-### 4. **Forgot Password Functionality**
-- Functional password recovery system that redirects users to their Gmail inbox for resetting their passwords securely.
+4. **Dynamic Home Page**  
+   - Features a banner slider, product showcase with "View Details" functionality, sports categories, and additional meaningful sections for an engaging user experience.
 
-### 5. **Responsive Design**
-- Fully responsive layout using **Tailwind CSS**, offering a seamless experience on both desktop and mobile devices.
+5. **Equipment Pages**  
+   - **All Sports Equipment Page**: Displays all products in a table format with sorting functionality by price.  
+   - **My Equipment List**: Lists equipment added by the logged-in user with options to update or delete items.  
+
+6. **View Details Page**  
+   - Displays full product details in an appealing design on a private route.
+
+7. **Dark/Light Theme Toggle**  
+   - Users can switch between dark and light modes for a personalized browsing experience.
+
+8. **Interactive Animations**  
+   - Includes engaging animations using **Lottie React** and **React Awesome Reveal** for a modern touch.
+
+9. **Error Handling**  
+   - Custom 404 page for non-existing routes and toast notifications for errors and successes.
+
+10. **Loading Spinner**  
+    - Displays a spinner during data loading to enhance the user experience.
 
 
 ###
