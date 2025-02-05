@@ -160,6 +160,7 @@ VITE_appId=your_api_id
 npm run dev
 ```
 
+<<<<<<< HEAD
 <p align="center" style="display: flex; align-items: center; justify-content: center;">
   <span style="font-size: 20px; font-weight: bold;">Backend</span>
   <img src="https://cdn-icons-png.flaticon.com/128/6213/6213731.png" alt="Front End Icon" width="15" height="15" style="margin-left: 8px;" />
@@ -208,5 +209,8 @@ npm start
 ```bash
 npm start
 ```
+=======
+
+>>>>>>> ebbf802 (added code to make footer section at the end)
 
 ###
